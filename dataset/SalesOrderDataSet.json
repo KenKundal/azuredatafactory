@@ -1,0 +1,19 @@
+{
+	"name": "SalesOrderDataSet",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorageInput",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "orders1.txt",
+				"folderPath": "input",
+				"container": "adfcookbook"
+			}
+		}
+	}
+}
