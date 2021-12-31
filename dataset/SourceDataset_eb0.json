@@ -1,0 +1,18 @@
+{
+	"name": "SourceDataset_eb0",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorageInput",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"folderPath": "input",
+				"container": "adfcookbook"
+			}
+		}
+	}
+}
