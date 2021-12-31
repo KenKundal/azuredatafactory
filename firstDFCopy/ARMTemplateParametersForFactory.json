@@ -5,6 +5,9 @@
 		"factoryName": {
 			"value": "firstDFCopy"
 		},
+		"AzureBlobStorage2_connectionString": {
+			"value": ""
+		},
 		"AzureBlobStorageInput_connectionString": {
 			"value": ""
 		}
